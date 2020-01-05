@@ -15,17 +15,24 @@ All parameters are customizable if you look thorugh the code with minor modifica
 The number of runs to do
 
 ### PSO parameters
-Swarm size - how many ANNs to create 
+Swarm size - how many ANNs to create
+
 Search space limits - this defines the boundaries of the particle positions 
+
 Step size - a factor to scale velocity by, used to make particles overall faster or slower - one of the main convergence controls
+
 Informant pool size - how many particles will each particle be informed by
+
 Max iterations - amount of iterations to do in the PSO - time/accuracy tradeoff 
+
 Particle velocity factors - inertia, self confidence, informant confidence, swarm confidence
 
 ### ANN parameters
 The input/output pairs - keep within the same format!
 Activation function choices - Null, Sigmoid, tanh (Hyperbolic tangent), cosine and complex (exponential).
+
 Number of hidden layers - any positive integer
+
 Number of hidden neurons - any positive integer
 
 * Note: Some graphs will turn out looking bad. This is due to iteration over activation functions for problems that require a specific one (e.g. an activation funcion with only positive values so negatives can't be handled in the neurons, where the output needs to be negative in places). This was needed to do and point out in the report and is working well.
