@@ -29,6 +29,7 @@ Particle velocity factors - inertia, self confidence, informant confidence, swar
 
 ### ANN parameters
 The input/output pairs - keep within the same format!
+
 Activation function choices - Null, Sigmoid, tanh (Hyperbolic tangent), cosine and complex (exponential).
 
 Number of hidden layers - any positive integer
