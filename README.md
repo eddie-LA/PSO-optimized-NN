@@ -36,4 +36,4 @@ Number of hidden layers - any positive integer
 
 Number of hidden neurons - any positive integer
 
-* Note: Some graphs will turn out looking bad. This is due to iteration over activation functions for problems that require a specific one (e.g. an activation funcion with only positive values so negatives can't be handled in the neurons, where the output needs to be negative in places). This was needed to do and point out in the report and is working well.
+* Note: Big graphs will turn out looking cluttered. This is due to the runs' values not being averaged. This was useful for illustrating the changes between runs and to point out the stochastic nature of the algorithm. 
